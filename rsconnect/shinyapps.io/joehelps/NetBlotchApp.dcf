@@ -1,0 +1,13 @@
+name: NetBlotchApp
+title: NetBlotchApp
+username:
+account: joehelps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4860531
+bundleId: 5136139
+url: https://joehelps.shinyapps.io/NetBlotchApp/
+when: 1634157861.52841
+lastSyncTime: 1634157861.52841
+asMultiple: FALSE
+asStatic: FALSE

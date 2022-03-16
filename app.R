@@ -1589,7 +1589,7 @@ server <- function(input, output,session) {
     )
     fungicide_parameters = reactiveValues(
         dose_response_asymptote = PARAMETERS$dose_response_asymptote,
-        dose_response_shape = matrix(c(10,0.1,10,0.1,30,30,0.3,0.3,10,10,10,10),byrow=TRUE,ncol=4,nrow=3), # I've changed these from the default parameters
+        dose_response_shape = matrix(c(10,0.1,10,0.1,30,30,0.3,0.3,20,20,20,20),byrow=TRUE,ncol=4,nrow=3), # I've changed these from the default parameters
         decay_rate = PARAMETERS$fungicide_decay_rate,
         seed_treatment_coefficient = PARAMETERS$seed_treatment_coefficient,
         seed_treatment_shape = PARAMETERS$seed_treatment_shape,
